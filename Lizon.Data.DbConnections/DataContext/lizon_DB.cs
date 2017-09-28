@@ -1,8 +1,7 @@
-﻿using Lizon.Models;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace Lizon.DataContext
+namespace Lizon.Data.DbConnections.DataContext
 {
     public class lizon_DB : DbContext
     {

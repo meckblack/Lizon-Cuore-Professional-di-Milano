@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Lizon.DataContext
+namespace Lizon.Data.DbConnections.DataContext
 {
     public class Initializer : CreateDatabaseIfNotExists<lizon_DB>
         {
