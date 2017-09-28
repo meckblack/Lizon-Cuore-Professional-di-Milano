@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using Lizon.Data.Objects.Entities;
+using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace Lizon.Data.DbConnections.DataContext
