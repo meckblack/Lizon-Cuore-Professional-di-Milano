@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lizon", "Lizon\Lizon.csproj", "{DA6A62E3-1C32-4EF6-90B2-1414158477B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lizon.Data.DbConnections", "Lizon.Data.DbConnections\Lizon.Data.DbConnections.csproj", "{A42AEEB9-88FB-4514-86CB-4750F6B3E1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lizon.Data.Objects", "Lizon.Data.Objects\Lizon.Data.Objects.csproj", "{F70CF094-645E-4A51-AA19-6D6374E7177F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DA6A62E3-1C32-4EF6-90B2-1414158477B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6A62E3-1C32-4EF6-90B2-1414158477B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6A62E3-1C32-4EF6-90B2-1414158477B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42AEEB9-88FB-4514-86CB-4750F6B3E1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42AEEB9-88FB-4514-86CB-4750F6B3E1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42AEEB9-88FB-4514-86CB-4750F6B3E1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42AEEB9-88FB-4514-86CB-4750F6B3E1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70CF094-645E-4A51-AA19-6D6374E7177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70CF094-645E-4A51-AA19-6D6374E7177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70CF094-645E-4A51-AA19-6D6374E7177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70CF094-645E-4A51-AA19-6D6374E7177F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
