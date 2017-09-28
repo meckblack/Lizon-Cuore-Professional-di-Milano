@@ -37,6 +37,7 @@
       <HintPath>..\packages\EntityFramework.6.2.0-beta1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -51,17 +52,9 @@
   <ItemGroup>
     <Compile Include="DataContext\Initializer.cs" />
     <Compile Include="DataContext\lizon_DB.cs" />
-    <Compile Include="Migrations\201709282147348_Migration1.cs" />
-    <Compile Include="Migrations\201709282147348_Migration1.Designer.cs">
-      <DependentUpon>201709282147348_Migration1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709282153071_Migration2.cs" />
-    <Compile Include="Migrations\201709282153071_Migration2.Designer.cs">
-      <DependentUpon>201709282153071_Migration2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201709282204399_Migration3.cs" />
-    <Compile Include="Migrations\201709282204399_Migration3.Designer.cs">
-      <DependentUpon>201709282204399_Migration3.cs</DependentUpon>
+    <Compile Include="Migrations\201709282239025_Migration1.cs" />
+    <Compile Include="Migrations\201709282239025_Migration1.Designer.cs">
+      <DependentUpon>201709282239025_Migration1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,14 +70,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201709282147348_Migration1.resx">
-      <DependentUpon>201709282147348_Migration1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709282153071_Migration2.resx">
-      <DependentUpon>201709282153071_Migration2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201709282204399_Migration3.resx">
-      <DependentUpon>201709282204399_Migration3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201709282239025_Migration1.resx">
+      <DependentUpon>201709282239025_Migration1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

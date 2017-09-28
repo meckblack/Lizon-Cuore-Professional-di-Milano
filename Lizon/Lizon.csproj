@@ -287,6 +287,16 @@
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lizon.Data.DbConnections\Lizon.Data.DbConnections.csproj">
+      <Project>{a42aeeb9-88fb-4514-86cb-4750f6b3e1c1}</Project>
+      <Name>Lizon.Data.DbConnections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lizon.Data.Objects\Lizon.Data.Objects.csproj">
+      <Project>{f70cf094-645e-4a51-aa19-6d6374e7177f}</Project>
+      <Name>Lizon.Data.Objects</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

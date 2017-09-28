@@ -14,7 +14,7 @@ namespace Lizon.Data.Objects.Entities
         [Required(ErrorMessage = "Last name field required")]
         [Display(Name = "Last Name")]
         public string AppUserLastName { get; set; }
-        
+
         [Display(Name = "Middle Name")]
         public string AppUserMiddleName { get; set; }
 
@@ -36,5 +36,8 @@ namespace Lizon.Data.Objects.Entities
         [Required(ErrorMessage = "Phone Number field required")]
         [Display(Name = "Phone Number")]
         public string AppUserPhoneNumber { get; set; }
+
+        public int RoleId { get; set; }
+        public virtual Role Role { get; set; }
     }
 }
